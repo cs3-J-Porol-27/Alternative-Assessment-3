@@ -13,12 +13,12 @@ body {
     background-image: url("https://pbs.twimg.com/media/E6ZrH5dUYAAkQRR?format=jpg&name=4096x4096");
     background-position: center;
     background-size: cover;
-	position: relative;
+    position: relative;
 }
 
 .sidebar {
     position: fixed;
-	z-index: 2;
+    z-index: 2;
     top: 0;
     left: 0;
     width: 110px;
@@ -27,9 +27,8 @@ body {
     align-items: center;
     flex-direction: column;
     background: rgba(255, 255, 255, 0.2);
-	background-image: linear-gradient(#93c1c2, #639091, #174545);
+    background-image: linear-gradient(#93c1c2, #639091, #174545);
     backdrop-filter: blur(17px);
-    --webkit-backdrop-filter: blur(17px);
     border-right: 1px solid rgba(40, 63, 64);
     transition: width 0.3s ease;
 }
@@ -113,16 +112,17 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	width: 800px;
-	height: 400px;
-	top: 50%;
-	bottom: 50%;
-	transform: translate(10%, 0%);
-	background: transparent;
-	backdrop-filter: blur(15px);
-	box-shadow: 0 0 30px black;
-	display: flex;
+    width: 800px;
+    height: 400px;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(10%, 0%);
+    background: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px black;
+    display: flex;
 }
+
 .head h1 {
 	color: white;
 	text-align: left;
@@ -149,18 +149,18 @@ img {
 .text {
     flex: 2; 
     padding: 10px;
-	text-align: left;
+    text-align: left;
 }
 h3 {
-	font-size: 25px;
-	color: white;
-	text-align: left;
+    font-size: 25px;
+    color: white;
+    text-align: left;
 }
 	
 p {
     font-size: 16px;
     color: white;
-	text-align: left;
+    text-align: left;
 }
 
 .top-container {
@@ -168,37 +168,37 @@ p {
 }
 
 .comments p {
-	font-size: 13px;
-	text-align: left;
+    font-size: 13px;
+    text-align: left;
 }
 
 .eta h1 {
-	align-items: center;
-	color: white;
+    align-items: center;
+    color: white;
 }
 
 
 .eta{
-	margin: 20px auto;
-	width: 80%;
-	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://i.pinimg.com/originals/7b/1b/b6/7b1bb67b642f2665a0709a26e57300e1.gif);
-	background-position: center;
-	background-size: cover;
-	border-radius: 10px;
-	text-align: center;
-	padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://i.pinimg.com/originals/7b/1b/b6/7b1bb67b642f2665a0709a26e57300e1.gif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	width: 800px;
-	height: 100px;
-	top: 50%;
-	bottom: 50%;
-	transform: translate(10%, 0%);
-	box-shadow: 0 0 30px black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    width: 800px;
+    height: 100px;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(10%, 0%);
+    box-shadow: 0 0 30px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info h3 {
